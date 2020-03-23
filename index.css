@@ -196,7 +196,7 @@
 }
 
 .places {
-    margin: 72px auto 0;
+    margin: 20px auto 0;
     max-width: 984px;
 }
 
@@ -209,7 +209,7 @@
     "title url"
     "image website"
     "image paragraph";
-    margin: 20px auto 0;
+    margin: 72px auto 0;
 }
 
 .place__title {
@@ -256,8 +256,15 @@
     line-height: 30px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    
+    transition: linear all .3s;
 }
+
+
+.place__website:hover {
+    opacity: .5;
+    transition: linear all .3s;
+}
+
 
 .place__paragraph {
     grid-area: paragraph;
@@ -326,6 +333,15 @@
 }
 */
 
+.video__item:hover .video__icon_play { 
+    transform: scale(1.3 , 1.3); /*кустарно, но пока что все на очень ранней стадии :) */
+    transition: ease-in all .3s;
+}
+
+.video__item .video__icon_play { 
+    transition: ease-in all .3s;
+}
+
 .video__icon_play {
     position: absolute;
     top: 30px;
@@ -343,7 +359,7 @@
     color: #FFFFFF;
     margin: 165px auto 12px 30px;
     text-decoration: none;
-
+    z-index: 1;
 }
 
 .video__title {
@@ -356,6 +372,7 @@
     color: #FFFFFF;
     text-decoration: none;
     margin: 0 auto 18px 30px;
+    z-index: 1;
 }
 
 .video__subtitle {
@@ -368,36 +385,26 @@
     color: #FFFFFF;
     text-decoration: none;
     margin: 0 auto 30px 30px;
+    z-index: 1;
 }
 
-.video__item_bg-kamchatka {
+.video__item_bg_kamchatka {
     background-image: url(./images/Rect_1.png);
     border-radius: 5px;
 
 }
 
-.video__item_bg-kamchatka::before {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    opacity: .5;
-    top:0;
-    left:0;
-    position: absolute;
-
-}
-
-.video__item_bg-observatory {
+.video__item_bg_observatory {
     background-image: url(./images/Rect_2.png);
     border-radius: 5px;
 }
 
-.video__item_bg-observatory:last-of-type {
-    margin-right: 0; {
+.video__item_bg_observatory:last-of-type {
+    margin-right: 0; 
 
 }
 
-.video__item_bg-observatory::before {
+.video__item::before {
     background-color: black;
     height: 100%;
     width: 100%;
@@ -405,6 +412,159 @@
     top:0;
     left:0;
     position: absolute;
+    content: '';
+    transition: linear all .3s;
+}
+
+.video__item:hover::before {
+    opacity: .3;
+    transition: linear all .3s;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 102px auto 0;
+    max-width: 1184px;
+}
+
+.comments__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1184px;
+}
+
+.comment {
+    max-width: 382px;
+}
+
+.comment__quote {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    max-width: 382px;
+    margin-top: 42px;
+}
+
+.comment__author {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    max-width: 382px;
+}
+
+.cover {
+    margin: 102px auto 0;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cover_bg {
+    background-image: url(./images/cover-bg_image.png);
+    width: 1184px;
+    height: 594px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: linear all .3s;
+}
+
+.cover__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: white;
+    max-width: 1094px;
+    margin: 274px auto 0;
+    position: relative;
+    z-index: 1;
 
 }
 
+.cover__subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    max-width: 382px;
+    margin: 134px auto 48px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.cover_bg::before {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    top:0;
+    left:0;
+    position: absolute;
+    content: '';
+    transition: linear all .3s;
+}
+
+.cover_bg:hover::before {
+    opacity: .7;
+    transition: linear all .3s;
+    transform: scale(1.05);
+
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 170px auto 0;
+    max-width: 1184px;
+    justify-content: flex-end;
+    
+}
+
+.footer__link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 18px;
+    transition: linear all .3s;
+}
+
+.footer__link:hover {
+    opacity: .5;
+    transition: linear all .3s;
+}    
+
+.footer__copyright {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    max-width: 282px;
+    margin-left: 370px;
+
+}
