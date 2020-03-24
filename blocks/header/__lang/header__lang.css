@@ -1,0 +1,28 @@
+
+.header__lang {
+    grid-area: lang;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 17px;
+    text-decoration: none;
+    color: white;
+    max-width: 30px;
+    margin-right: 18px;
+}
+
+.header__lang:last-of-type {
+    margin-right: 0px;
+}
+
+.header__lang:hover {
+    cursor: pointer;
+  }
+  
+.header__lang input {
+    display: none;
+  }
+
+
+.header__lang input:checked + span {
+    text-decoration: underline;
+  }

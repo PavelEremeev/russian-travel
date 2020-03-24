@@ -1,0 +1,17 @@
+@import url(./__logo/header__logo.css);
+@import url(./__langs/header__langs.css);
+@import url(./__lang/header__lang.css);
+
+.header {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content min-content;
+    grid-template-areas: "logo . lang lang-en";
+    justify-content: space-between;
+    align-items: center;
+    max-height: 52px;
+    max-width: 1184px;
+    margin-top: 30px;
+    margin-left: 128px;
+    margin-right: 128px;
+    
+}
