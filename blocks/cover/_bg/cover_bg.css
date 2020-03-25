@@ -1,0 +1,30 @@
+
+.cover_bg {
+    background-image: url(../../../images/cover-bg_image.png);
+    width: 1184px;
+    height: 594px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: linear all .3s;
+}
+
+
+.cover_bg::before {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    top:0;
+    left:0;
+    position: absolute;
+    content: '';
+    transition: linear all .3s;
+}
+
+.cover_bg:hover::before {
+    opacity: .7;
+    transition: linear all .3s;
+    transform: scale(1.05);
+
+}

@@ -1,0 +1,9 @@
+* {
+    border: 1px solid cyan;
+}
+
+.page {
+    font-family: 'Inter' , Arial , sans-serif;
+    background: #2A2C2F;
+    max-width: 1440px;
+}

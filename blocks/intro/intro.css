@@ -1,0 +1,17 @@
+@import url(./__title/intro__title.css);
+@import url(./__content-row/intro__content-row.css);
+@import url(./__text/intro__text.css);
+
+
+
+.intro {
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    grid-template-areas: 
+    "title"
+    "content-row"
+    "text";
+    max-width: 683px;
+    margin-left: 227px; 
+    margin-top: 42px;
+}

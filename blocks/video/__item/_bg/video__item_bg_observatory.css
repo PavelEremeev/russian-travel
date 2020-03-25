@@ -1,0 +1,10 @@
+
+.video__item_bg_observatory {
+    background-image: url(../../../../images/Rect_2.png);
+    border-radius: 5px;
+}
+
+.video__item_bg_observatory:last-of-type {
+    margin-right: 0; 
+
+}

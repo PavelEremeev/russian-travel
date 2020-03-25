@@ -1,0 +1,13 @@
+
+.intro__content-row {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    max-width: 683px;
+    grid-area: content-row;
+}
