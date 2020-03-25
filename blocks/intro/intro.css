@@ -1,5 +1,6 @@
 @import url(./__title/intro__title.css);
 @import url(./__content-row/intro__content-row.css);
+@import url(./__text/_normal/intro__text_normal.css);
 @import url(./__text/intro__text.css);
 
 
@@ -14,4 +15,11 @@
     max-width: 683px;
     margin-left: 227px; 
     margin-top: 42px;
+}
+
+@media screen and (max-width: 1280px) {
+    .intro {
+        margin-top: 80px;
+        margin-left: 148px;
+    }
 }
