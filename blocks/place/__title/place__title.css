@@ -10,3 +10,11 @@
     max-width: 457px;
     margin: 0px;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+
+    }
+}

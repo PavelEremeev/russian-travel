@@ -23,3 +23,11 @@
         margin-left: 148px;
     }
 }
+
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+        margin-left: 35px; /* в макете указано 48рх но при выставлении данного маргина блоки - lead intro photo-grid - идут не в одну линию ¯ \ _ (ツ) _ / ¯ */
+    }
+}

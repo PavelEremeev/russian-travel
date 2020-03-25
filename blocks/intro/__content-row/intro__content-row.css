@@ -11,3 +11,10 @@
     max-width: 683px;
     grid-area: content-row;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .intro__title {
+        max-width: 692px;
+    }
+}

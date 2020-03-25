@@ -1,8 +1,8 @@
 
 .cover_bg {
     background-image: url(../../../images/cover-bg_image.png);
-    width: 1184px;
-    height: 594px;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
     position: relative;
     overflow: hidden;
@@ -27,4 +27,12 @@
     transition: linear all .3s;
     transform: scale(1.05);
 
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cover_bg {
+        background-position: center;
+        background-size: cover;
+    }
 }

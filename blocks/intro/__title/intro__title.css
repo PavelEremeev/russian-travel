@@ -10,3 +10,10 @@
     max-width: 683px;
     grid-area: title;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .intro__title {
+        max-width: 928px;
+    }
+}

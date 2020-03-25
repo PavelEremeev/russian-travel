@@ -13,3 +13,10 @@
     z-index: 1;
 
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 946px; 
+        margin: 209px auto 0;
+    }
+}

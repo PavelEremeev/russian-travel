@@ -45,3 +45,14 @@
     transition: linear all .3s;
 }
   
+
+
+@media screen and (max-width: 1024px) {
+    .video__item {
+        width: 456px;
+        height: 288px;
+        margin-right: 16px;
+        background-position: center;
+        background-size: cover;
+    }
+}

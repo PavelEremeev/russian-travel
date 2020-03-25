@@ -17,3 +17,7 @@
     "image paragraph";
     margin: 0px auto 72px;
 }
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
