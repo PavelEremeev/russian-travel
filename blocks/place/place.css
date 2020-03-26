@@ -21,3 +21,10 @@
 .place:last-of-type {
     margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-gap: 40px 32px;
+    }
+}
