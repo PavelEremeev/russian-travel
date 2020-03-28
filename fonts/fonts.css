@@ -17,3 +17,9 @@
     font-style: normal;
     font-weight: bolder;
 }
+
+@font-face {
+    src: url(./Inter-Light.woff2);
+    font-family: 'Inter';
+    font-weight: light;
+}
