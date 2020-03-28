@@ -56,3 +56,24 @@
         background-size: cover;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .video__item {
+        width: 352px;
+        height: 200px;
+    }
+    .video__item:hover .video__icon_play { 
+        transform: scale(1.1 , 1.1); /*кустарно, но пока что все на очень ранней стадии :) */
+        transition: ease-in all .3s;
+    } 
+}
+
+@media screen and (max-width: 375px) {
+    .video__item {
+        width: 343px;
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+}    

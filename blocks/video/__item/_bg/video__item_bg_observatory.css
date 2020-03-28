@@ -2,9 +2,17 @@
 .video__item_bg_observatory {
     background-image: url(../../../../images/Rect_2.png);
     border-radius: 5px;
+    margin-right: 0;
 }
 
 .video__item_bg_observatory:last-of-type {
     margin-right: 0; 
 
 }
+
+
+@media screen and (max-width: 375px) {
+    .video__item_bg_observatory:last-of-type {
+        margin-bottom: 0; 
+    }
+}    

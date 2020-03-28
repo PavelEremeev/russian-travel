@@ -10,3 +10,10 @@
     color: #AAAAAA;
 
 }
+
+
+@media screen and (max-width: 375px) {
+    .place__url {
+        display: none;
+    }
+}

@@ -14,7 +14,13 @@
 
 
 @media screen and (max-width: 1024px) {
-    .intro__title {
+    .intro__content-row {
         max-width: 692px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__content-row {
+        max-width: 720px;
     }
 }

@@ -12,8 +12,16 @@
 }
 
 @media screen and (max-width: 1024px ) {
-    .lead__image {
+    .lead__title {
         max-width: 928px;
+        
+    }
+}
+
+
+@media screen and (max-width: 768px ) {
+    .lead__title {
+        max-width: 720px;
         
     }
 }

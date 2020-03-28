@@ -17,3 +17,10 @@
         margin: 16px 0 0;
     }
 }
+
+
+@media screen and (max-width: 786px) {
+    .comment__author {
+        order:1
+    }
+}
