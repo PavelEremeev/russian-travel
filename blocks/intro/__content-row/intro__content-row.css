@@ -24,3 +24,14 @@
         max-width: 720px;
     }
 }
+
+
+@media screen and (max-width: 375px) {
+    .intro__content-row {
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 27px;  
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+}

@@ -12,3 +12,12 @@
     list-style: none;
     padding-left: 0;
 }
+
+
+@media screen and (max-width: 375px) {
+    .intro__text {
+        max-width: 343px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

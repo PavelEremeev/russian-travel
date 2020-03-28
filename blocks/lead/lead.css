@@ -32,3 +32,20 @@
         max-width: 768px;
     }
 }
+
+
+@media screen and (max-width: 375px ) {
+    .lead {
+        margin-top: 48px;
+        max-width: 343px;
+    }
+}
+
+
+@media screen and (max-width: 320px ) {
+    .lead {
+        max-width: 320px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
