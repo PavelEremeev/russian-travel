@@ -48,3 +48,12 @@
         margin-top: 64px;
     }
 }
+
+
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        grid-gap: 8px;
+        max-width: 288px;
+    }
+}

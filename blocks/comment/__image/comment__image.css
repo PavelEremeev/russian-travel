@@ -11,3 +11,10 @@
     }
 }
 */
+
+@media screen and (max-width: 320px) {
+    .comment__image {
+        width: 96px;
+        height: 96px;
+    }
+}

@@ -24,3 +24,10 @@
         order:1
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .comment__author {
+        max-width: 288px;
+    }
+}

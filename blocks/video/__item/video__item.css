@@ -77,3 +77,11 @@
         margin-bottom: 8px;
     }
 }    
+
+
+@media screen and (max-width: 320px) {
+    .video__item {
+        width: 288px;
+        height: 192px;
+    }
+}    

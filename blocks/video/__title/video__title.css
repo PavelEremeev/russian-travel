@@ -29,3 +29,11 @@
 
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .video__title {
+        max-width: 256px; 
+
+    }
+}

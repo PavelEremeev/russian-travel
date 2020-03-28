@@ -26,3 +26,11 @@
 
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .video__subtitle {
+        max-width: 256px; 
+
+    }
+}

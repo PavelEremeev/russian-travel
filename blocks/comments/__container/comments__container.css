@@ -29,3 +29,10 @@
         margin-top: 48px;
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .comments__container {
+        max-width: 320px;
+    }
+}

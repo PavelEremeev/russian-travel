@@ -40,3 +40,10 @@
         max-width: 343px;
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .comment__quote {
+        max-width: 288px;
+    }
+}

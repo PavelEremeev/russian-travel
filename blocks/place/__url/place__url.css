@@ -1,15 +1,22 @@
 
 .place__url {
-    grid-area: url;
+    grid-area: website;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.2em;
-    color: #AAAAAA;
-
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    transition: linear all .3s;
 }
+
+
+.place__url:hover {
+    opacity: .5;
+    transition: linear all .3s;
+}
+
 
 
 @media screen and (max-width: 375px) {

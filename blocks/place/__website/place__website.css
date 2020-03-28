@@ -1,26 +1,14 @@
 
 .place__website {
-    grid-area: website;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    transition: linear all .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-
-.place__website:hover {
-    opacity: .5;
-    transition: linear all .3s;
-}
-
-
-
+/*
 @media screen and (max-width: 375px) {
-    .place__website {
+    .place_website {
         display: none;
     }
 }
+*/
