@@ -8,6 +8,7 @@
     color: white;
     max-width: 382px;
     margin-top: 42px;
+    margin-bottom: 0px;
 }
 
 
@@ -27,7 +28,6 @@
         font-size: 16px;
         line-height: 24px;
         order:2;
-        margin-bottom: 0px;
         
 
     }

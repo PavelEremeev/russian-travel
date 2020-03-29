@@ -31,6 +31,12 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .place {
+        grid-gap: 40px 28px;
+    }
+}
+
 
 @media screen and (max-width: 375px) {
     .place {

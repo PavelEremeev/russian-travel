@@ -4,7 +4,7 @@
 
 .video__item {
     /*  width: calc((100% - 18px)/2); */
-      width: 583px;
+      width: 100%;
       min-height: 323px;
       margin-right: 18px;
       position: relative;
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 1024px) {
     .video__item {
-        width: 456px;
+        /*width: 456px;*/
         min-height: 288px;
         margin-right: 16px;
         background-position: center;
@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 768px) {
     .video__item {
-        width: 352px;
+        /*width: 352px;*/
         min-height: 200px;
     }
     .video__item:hover .video__icon_play { 
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 375px) {
     .video__item {
-        width: 343px;
+        /*width: 343px;*/
         min-height: 200px;
         margin-right: 0;
         margin-bottom: 8px;
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 320px) {
     .video__item {
-        width: 288px;
+        /*width: 288px;*/
         min-height: 192px;
     }
 }    
