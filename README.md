@@ -1,23 +1,16 @@
-# Проект 3: Путешествие по России
+# Проект 3: Путешествие по России 
 
 ### Обзор
-* Интро
-* Figma
-* Картинки
+* Description
+* Technologies
 
-**Интро**
+**Intro**
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+This is a project about traveling in Russia.
+The site is creating using by Figma layout for different screen resolutions.
+(Figma layout - https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1)
 
-**Figma**
+**Technologies**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+In this project i using Grid's and Flexbox'ies for adaptive layout on different resolutions. Further, 
+i wanna making this project more adaptive responsive and interactive.

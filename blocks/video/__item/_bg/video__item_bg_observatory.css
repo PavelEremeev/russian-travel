@@ -1,6 +1,7 @@
 
 .video__item_bg_observatory {
-    background-image: url(../../../../images/Rect_2.png);
+    background-image: url(../../../../images/Rect_2.jpg);
+    background-size: cover;
     border-radius: 5px;
     margin-right: 0;
 }
