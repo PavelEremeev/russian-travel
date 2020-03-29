@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .video__duration {
         max-width: 44px; 
     }

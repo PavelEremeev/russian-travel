@@ -12,7 +12,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .video__item_bg_observatory:last-of-type {
         margin-bottom: 0; 
     }

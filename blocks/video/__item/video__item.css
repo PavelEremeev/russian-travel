@@ -69,7 +69,7 @@
     } 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .video__item {
         /*width: 343px;*/
         min-height: 200px;

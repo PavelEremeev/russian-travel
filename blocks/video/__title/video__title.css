@@ -23,7 +23,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .video__title {
         max-width: 295px; 
 

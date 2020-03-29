@@ -20,7 +20,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .video__container {
         margin-top: 24px;
         flex-direction: column;
