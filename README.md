@@ -21,3 +21,9 @@ The site is creating using by Figma layout for different screen resolutions.
 
 In this project i using Grid's and Flexbox'ies for adaptive layout on different resolutions. Further, 
 i wanna making this project more adaptive responsive and interactive.
+
+## Установка | Install
+
+1.      git clone 
+2.      or download zip (and then unpackage archive)
+3.      start by clicked index.html
